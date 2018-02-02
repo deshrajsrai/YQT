@@ -59,6 +59,12 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
+.navbar-brand img{
+    width: 70px;
+    padding: 5px 0;
+}
+
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
@@ -232,14 +238,18 @@ header .header-content .header-content-inner p {
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
-.navbar-brand {padding: 4px;}
+.navbar-brand {padding: 0px;}
+
+
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
     }
-
+.navbar-nav>li>a {
+    padding: 30px 23px;
+}
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
         letter-spacing: 0.5em;
